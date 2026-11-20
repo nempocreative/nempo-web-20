@@ -1,4 +1,4 @@
-// Owner request: the "si teteh naik motor" nail art video (NEMPO asset, served on the same site)
+// Owner request: the "si teteh naik motor" nail art video (file in public/videos/, ships with every deploy)
 // plays on the GGS home page and on the Home Service page, with a GGS Beauty WhatsApp button.
 // Runs after patch-tab-home-service.mjs.
 // Usage: node patch-nail-art-video.mjs <ggs-visit app dir>
@@ -11,8 +11,8 @@ const swap = (from, to) => {
   if (!s.includes(from)) throw new Error(`patch-nail-art-video: not found: ${from.slice(0, 70)}`);
   s = s.replace(from, to);
 };
-const VIDEO = "/__l5e/assets-v1/6f141b2d-8bd2-4c62-9795-b51d7a5939d1/nail-art-teteh-motor.mp4";
-const POSTER = "/__l5e/assets-v1/e8258222-58e3-4368-aeef-1c1498f84148/nail-art-teteh-motor-poster.webp";
+const VIDEO = "/videos/nail-art-teteh-motor.mp4";
+const POSTER = "/videos/nail-art-teteh-motor-poster.webp";
 
 swap("import { GgsBookingForm } from './ggs-booking-page';\n",
   "import { GgsBookingForm } from './ggs-booking-page';\nimport { ggsWhatsAppUrl as nailArtWaUrl } from './ggs-whatsapp';\n");

@@ -1,11 +1,11 @@
 {
-  "asset_id": "58b71911-1c5b-46b9-a050-eb06b4848a7c",
-  "content_type": "image/webp",
-  "created_at": "2026-11-19T08:03:32Z",
+  "version": 1,
+  "asset_id": "ff7f1d7d-4de7-47c4-a869-bff1568e6997",
+  "project_id": "ade16aea-7ecd-470e-ae10-12da0e73df40",
+  "url": "/__l5e/assets-v1/ff7f1d7d-4de7-47c4-a869-bff1568e6997/kala-muda-welcome-poster.webp",
+  "r2_key": "a/v1/ade16aea-7ecd-470e-ae10-12da0e73df40/ff7f1d7d-4de7-47c4-a869-bff1568e6997/kala-muda-welcome-poster.webp",
   "original_filename": "kala-muda-welcome-poster.webp",
-  "project_id": "789d331f-7976-4439-9da3-058effa71b99",
-  "r2_key": "a/v1/789d331f-7976-4439-9da3-058effa71b99/58b71911-1c5b-46b9-a050-eb06b4848a7c/kala-muda-welcome-poster.webp",
   "size": 186860,
-  "url": "/__l5e/assets-v1/58b71911-1c5b-46b9-a050-eb06b4848a7c/kala-muda-welcome-poster.webp",
-  "version": 1
+  "content_type": "image/webp",
+  "created_at": "2026-11-20T07:35:00Z"
 }

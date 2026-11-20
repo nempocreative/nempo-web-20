@@ -23,7 +23,9 @@
 
 - [x] Migrasi dari nempocreative/nempo-web-13: halaman, CMS, foto/video, database baru, folder poster/yearbook/lomba
 - [x] Migrasi dari nempocreative/nempo-web-15: halaman, CMS, foto/video, database baru, folder poster/yearbook/lomba
-- [ ] Migrasi: isi data lama (konten CMS, acara, pendaftar) + berkas unggahan — menunggu ekspor dari proyek lama
+- [ ] Migrasi: data tertutup proyek lama (pendaftar lomba, formulir komunitas & kerja sama, berita, pengaturan, berkas unggahan) — menunggu ekspor CSV dari proyek lama
+- [x] Video Nail Art (teteh motor) dimasukkan langsung ke situs supaya ikut terbit; diputar di Beranda GGS dan Home Service (HP)
+- [x] Sinkron setelah remix: 13 foto/video/musik pindah ke penyimpanan proyek ini, event MusiComedy Night + catatan media dikembalikan, aturan admin otomatis & kuota lomba dinyalakan lagi
 - [x] Migrasi dari nempocreative/nempo-feed-8: halaman, CMS, foto/video, database baru, folder poster & foto yearbook
 - [ ] Migrasi: data lama tambahan (poster acara yang diunggah lewat CMS, foto yearbook kiriman pengunjung) — menunggu ekspor atau konfirmasi pemilik
 - [x] Bersihkan foto/video dan halaman lama yang tidak dipakai (±121 MB dihapus)
