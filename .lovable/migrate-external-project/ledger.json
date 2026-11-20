@@ -1,0 +1,17 @@
+{
+  "source": "github:nempocreative/remix-of-remix-of-remix-of-remix-of-remix-of-nempo-website-migration-5",
+  "capabilities": [
+    {"capability": "code", "source": "TanStack Start app (src/, public/, docs/, scripts/)", "outcome": "migrate", "status": "pending", "next_action": "copy source tree, merge dependencies"},
+    {"capability": "schema", "source": "database/nempo-database.sql + docs/schema-baseline + generated types (lomba_pendaftaran, portfolio_events)", "outcome": "migrate", "status": "pending", "next_action": "apply migration to Lovable Cloud"},
+    {"capability": "records", "source": "events row in SQL dump; other tables empty at dump time", "outcome": "migrate", "status": "pending", "next_action": "insert bundled events row; request CSV exports for data added later"},
+    {"capability": "auth identities", "source": "Lovable Cloud (old project), dump reports 0 accounts", "outcome": "migrate", "status": "pending", "next_action": "enable email auth; admin via admin_allowlist trigger"},
+    {"capability": "authorization", "source": "user_roles + has_role + admin_allowlist trigger + RLS policies", "outcome": "migrate", "status": "pending", "next_action": "recreate in migration"},
+    {"capability": "storage buckets", "source": "yearbook-moments, lomba-pendaftaran, event-posters", "outcome": "migrate", "status": "pending", "next_action": "create buckets + policies"},
+    {"capability": "uploaded file bytes", "source": "old storage buckets", "outcome": "migrate", "status": "pending", "next_action": "user must download/re-upload existing files if any"},
+    {"capability": "public endpoints", "source": "src/routes/api/* (events API, event-poster, garut-beans-unlock, ggs, backup)", "outcome": "preserve", "status": "pending", "next_action": "copy routes, verify"},
+    {"capability": "schedules", "source": "none detected", "outcome": "none", "status": "verified", "next_action": ""},
+    {"capability": "secrets", "source": "only Cloud-managed SUPABASE_* values", "outcome": "none", "status": "verified", "next_action": ""},
+    {"capability": "cutover", "source": "old Lovable project / domain", "outcome": "pending", "status": "pending", "next_action": "user publishes and moves domain when ready"},
+    {"capability": "verification", "source": "-", "outcome": "verify", "status": "pending", "next_action": "build, routes, CMS, forms"}
+  ]
+}
